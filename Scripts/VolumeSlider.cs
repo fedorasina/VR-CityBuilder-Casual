@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class VolumeSlider : MonoBehaviour
 {
     [Header("Audio")]
-    public AudioMixer audioMixer; // Audio Mixer
+    public AudioMixer audioMixer;
     public string volumeParameter = "MasterVolume"; 
 
     [Header("UI")]

@@ -58,7 +58,6 @@ public class RightTriggerTeleportToPreview : MonoBehaviour
 
     IEnumerator TeleportRoutine()
     {
-        // Отпускаем объект
         var interactor = FindObjectsByType<XRBaseInteractor>(FindObjectsSortMode.None)
             .FirstOrDefault(i =>
                 i.hasSelection &&

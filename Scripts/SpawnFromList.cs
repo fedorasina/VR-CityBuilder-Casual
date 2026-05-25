@@ -28,7 +28,7 @@ public class SpawnFromList : MonoBehaviour
     public AudioClip spawnSound;
 
     [Header("VFX")]
-    public GameObject vfxPrefab; // Particle System или VFX Graph
+    public GameObject vfxPrefab; 
     public float vfxDestroyDelay = 2f;
 
     public void Spawn()

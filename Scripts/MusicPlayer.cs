@@ -17,7 +17,6 @@ public class MusicPlayer : MonoBehaviour
 
     void Update()
     {
-        // Если трек закончился — включаем следующий
         if (!audioSource.isPlaying)
         {
             NextTrack();

@@ -102,7 +102,6 @@ public class XRDragPreviewSnap : MonoBehaviour
         {
             CheckCollision();
 
-            // 👉 меняем prefab ТОЛЬКО если состояние изменилось
             if (isValidPlacement != lastPlacementState)
             {
                 SwapPrefab(isValidPlacement);
