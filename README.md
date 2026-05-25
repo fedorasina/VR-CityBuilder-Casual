@@ -18,7 +18,7 @@
 - Meta Quest 2 / 3 / Pro
 
 ## Структура репозитория
-Scripts/
+
 ├── XRDragPreviewSnap.cs # Управление превью, привязка к сетке, проверка коллизий
 
 ├── RightTriggerTeleportToPreview.cs # Телепортация объекта по нажатию правого триггера
